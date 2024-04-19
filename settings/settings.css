@@ -1,0 +1,45 @@
+body {
+    background-color: darksalmon;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:aliceblue;
+    margin-top: 100px;
+}
+
+.menu {
+    /* positioning */
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px 20px;
+    margin-top: 20px;
+    z-index: 1000;
+}
+
+.menu nav {
+    display: flex;
+}
+
+.menu a {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    color:aliceblue;
+    padding: 10px 20px;
+}
+
+.menu a:visited{
+    color:aliceblue;
+}
+
+.menu a:hover{
+    color:blueviolet;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: cadetblue;
+    align-items: center;
+}
